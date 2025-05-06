@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+#tracks div {
+  margin-bottom: 1.5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
