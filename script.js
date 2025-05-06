@@ -5,7 +5,7 @@ window.onload = function () {
     loginBtn.style.display = 'block';
     loginBtn.onclick = () => {
       const clientId = 'e8487fbac01d4b9b8bdcc833d4a32956';
-      const redirectUri = window.location.origin + '/callback.html';
+      const redirectUri = 'https://golboojamshidi.github.io/spotify-top-tracks/callback.html';
       const scopes = 'user-top-read';
       const url = `https://accounts.spotify.com/authorize?response_type=token&client_id=${clientId}&scope=${scopes}&redirect_uri=${encodeURIComponent(redirectUri)}`;
       window.location.href = url;
